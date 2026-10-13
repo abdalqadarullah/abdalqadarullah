@@ -36,7 +36,7 @@ Saya **Abdal**, mahasiswa **Hukum Tata Negara** di Fakultas Syariah dan Hukum, U
 </td>
 <td width="40%" valign="top">
 
-<img src="assets/images/about-me.gif" alt="Abdal presenting" width="100%" />
+<img src="assets/images/image.gif" alt="Abdal presenting" width="100%" />
 
 </td>
 </tr>
