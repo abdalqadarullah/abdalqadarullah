@@ -14,13 +14,15 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v2
+      - uses: aelassas/snk@main
         with:
           # github user name to read the contribution graph from (**required**)
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # the content will be available at
       # https://raw.githubusercontent.com/<github_user>/<repository>/output/<file>
